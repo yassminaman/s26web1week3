@@ -1,0 +1,10 @@
+body {
+    background-color:beige;
+    
+}
+/* This is a comment in CSS */
+
+/* to target all pargrapgs, make a rul for p */
+p {
+    color:brown;/* colcor means  text color */
+}
