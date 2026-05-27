@@ -13,20 +13,44 @@
 
     <nav>
           <!-- the nav tag resreve a space for navigation links -->
-        <a href="#">Home</a>
+         <a href="#">Home</a>
+         <ul>
+         <!-- ul stands for unordered list -->
+         <li>  <a href="#" title="About Us">About</a></li><!-- you can put other tags, like links, 
+         inside of list itmes-->
+         <li><a href="#" title="Contact Us">Contact</a></li>
+         <li><a href="#" title="Read Our Blog">Blog</a></li>
     </nav>
     
+
     <main>
         <!-- article is a  self-contained block of text -->  
      <article>
-            <h2>Articles should have a heading</h2>
-            <p>This is the text of the article.</p>
-         
+             <h2>Articles should have a heading</h2>
+             <p>This is the <em>text</em> of the article.</p>
+             <blockquote>
+                <p>A blockquote  has difffernet defult styling from regular text.</p>
+                <cite> --said someone important</cite>
+            </blockquote>
+            <!---lists are pratuculir  way to organize content in html -->
+         <ol>
+             <!-- ol is an ordered list, it will be numbered by default -->
+             <li>First item</li>
+             <li>Second item</li>
+             <li>Third item</li>
+         </ol>
+
      </article>
         <!-- an aside is for separtate cntact that isnt necessary to understand th e page -->
      <aside>
          <h3>Asides should also have a heading</h3>
          <p>This is the text of the aside.</p>
+         <p>A second paragraph</p>
+         <!-- a p tag is a block elemnet -it will always start on a new line -->
+         <em>Emphasized text</em> <strong>extra Strong text</strong>
+         <!-- em and strong tags are inline elements ,they go with the flow of text -->
+         <p> This is 3 <sup>rd</sup> week of  <br>
+         The BR tag addsa single line break</p>
      </aside>
 
     </main>
